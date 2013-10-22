@@ -1,0 +1,1331 @@
+# SOME DESCRIPTIVE TITLE.
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: burg\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-22 23:25+0800\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: util/hostdisk.c:750 util/i386/pc/grub-setup.c:563
+#, c-format
+msgid "cannot open `%s'"
+msgstr ""
+
+#: util/hostdisk.c:1114
+msgid "device count exceeds limit"
+msgstr ""
+
+#: util/grub-symdb.c:803 util/grub-objdump.c:54 util/grub-mkmod.c:53
+#: util/grub-mkrawimage.c:312 util/grub-mkimg.c:53 util/elf/grub-mkimage.c:311
+#: util/sparc64/ieee1275/grub-setup.c:408 util/i386/pc/grub-setup.c:604
+#: util/efi/grub-mkimage.c:542
+#, c-format
+msgid "Try `%s --help' for more information.\n"
+msgstr ""
+
+#: util/grub-symdb.c:805
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... COMMAND\n"
+"\n"
+"Manage the symbol database of GRUB.\n"
+"\n"
+"Commands:\n"
+"  update MODULES          add/update modules to the symbol database\n"
+"  remove MODULES          remove modules from the symbol databsae\n"
+"  check                   check for duplicate and unresolved symbols\n"
+"\n"
+"  -d, --directory=DIR     use images and modules under DIR [default=%s]\n"
+"  -t, --test              test mode\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/grub-objdump.c:56
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] [MODULE_FILES].\n"
+"\n"
+"Tool to generate mod file from object files.\n"
+"\n"
+"Options:\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"  -x, --all               display all information\n"
+"  -s, --segment           display segment information\n"
+"  -t, --syms              display symbol table\n"
+"  -r, --reloc             display reloc table\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/grub-mkmod.c:55
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] [OBJECT_FILES].\n"
+"\n"
+"Tool to generate mod file from object files.\n"
+"\n"
+"Options:\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"  -o, --output=FILE       output a generated image to FILE [default=stdout]\n"
+"  -n, --name=NAME         set module name\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/grub-mkrawimage.c:73
+msgid "the core image is too small"
+msgstr ""
+
+#: util/grub-mkrawimage.c:85
+msgid "cannot compress the kernel image"
+msgstr ""
+
+#: util/grub-mkrawimage.c:170
+msgid "prefix is too long"
+msgstr ""
+
+#: util/grub-mkrawimage.c:188
+msgid "the core image is too big"
+msgstr ""
+
+#: util/grub-mkrawimage.c:193
+#, c-format
+msgid "diskboot.img size must be %u bytes"
+msgstr ""
+
+#: util/grub-mkrawimage.c:274
+#, c-format
+msgid "core image is too big (%p > %p)"
+msgstr ""
+
+#: util/grub-mkrawimage.c:314
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... [MODULES]\n"
+"\n"
+"Make a bootable image of GRUB.\n"
+"\n"
+"  -d, --directory=DIR     use images and modules under DIR [default=%s]\n"
+"  -p, --prefix=DIR        set grub_prefix directory [default=%s]\n"
+"  -m, --memdisk=FILE      embed FILE as a memdisk image\n"
+"  -c, --config=FILE       embed FILE as boot config\n"
+"  -o, --output=FILE       output a generated image to FILE [default=stdout]\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/grub-mkrawimage.c:419
+#, c-format
+msgid "cannot open %s"
+msgstr ""
+
+#: util/misc.c:75
+#, c-format
+msgid "%s: warn:"
+msgstr ""
+
+#: util/misc.c:91
+#, c-format
+msgid "%s: info:"
+msgstr ""
+
+#: util/misc.c:106
+#, c-format
+msgid "%s: error:"
+msgstr ""
+
+#: util/grub-mkimg.c:55
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] [OBJECT_FILES].\n"
+"\n"
+"Tool to generate img file from object files.\n"
+"\n"
+"Options:\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"  -o, --output=FILE       output a generated image to FILE [default=stdout]\n"
+"  -b, --base=ADDR         set base address\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/elf/grub-mkimage.c:313
+#, c-format
+msgid ""
+"Usage: %s -o FILE [OPTION]... [MODULES]\n"
+"\n"
+"Make a bootable image of GRUB.\n"
+"\n"
+"  -d, --directory=DIR     use images and modules under DIR [default=%s]\n"
+"  -p, --prefix=DIR        set grub_prefix directory\n"
+"  -m, --memdisk=FILE      embed FILE as a memdisk image\n"
+"  -c, --config=FILE       embed FILE as boot config\n"
+"  -o, --output=FILE       output a generated image to FILE\n"
+"  -b, --base=ADDR         set base address\n"
+"  -h, --help              display this message and exit\n"
+"  -n, --note              add NOTE segment for CHRP Open Firmware\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/sparc64/ieee1275/grub-setup.c:410
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... DEVICE\n"
+"\n"
+"Set up images to boot from DEVICE.\n"
+"DEVICE must be a GRUB device (e.g. `(hd0,1)').\n"
+"\n"
+"  -b, --boot-image=FILE   use FILE as the boot image [default=%s]\n"
+"  -c, --core-image=FILE   use FILE as the core image [default=%s]\n"
+"  -d, --directory=DIR     use GRUB files in the directory DIR [default=%s]\n"
+"  -m, --device-map=FILE   use FILE as the device map [default=%s]\n"
+"  -r, --root-device=DEV   use DEV as the root device [default=guessed]\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:138
+msgid "the first sector of the core file is not sector-aligned"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:154
+msgid "non-sector-aligned data is found in the core file"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:168
+msgid "the sectors of the core file are too fragmented"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:220
+#, c-format
+msgid "the size of `%s' is not %u"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:237
+#, c-format
+msgid "the size of `%s' is too small"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:239
+#, c-format
+msgid "the size of `%s' is too large"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:276
+#, c-format
+msgid "unable to identify a filesystem in %s; safety check can't be performed"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:280
+#, c-format
+msgid ""
+"%s appears to contain a %s filesystem which isn't known to reserve space for "
+"DOS-style boot.  Installing GRUB there could result in FILESYSTEM "
+"DESTRUCTION if valuable data is overwritten by %s (--skip-fs-probe disables "
+"this check, use at your own risk)"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:342 util/i386/pc/grub-setup.c:357
+msgid ""
+"Attempting to install GRUB to a partitionless disk.  This is a BAD idea."
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:348
+msgid ""
+"Attempting to install GRUB to a partition instead of the MBR.  This is a BAD "
+"idea."
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:366
+msgid "No DOS-style partitions found"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:371
+msgid ""
+"This msdos-style partition label has no post-MBR gap; embedding won't be "
+"possible!"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:373
+msgid ""
+"This GPT partition label has no BIOS Boot Partition; embedding won't be "
+"possible!"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:380
+msgid "Your core.img is unusually large.  It won't fit in the embedding area."
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:382
+msgid "Your embedding area is unusually small.  core.img won't fit in it."
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:429
+msgid ""
+"embedding is not possible, but this is required when the root device is on a "
+"RAID array or LVM volume"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:432
+msgid ""
+"Embedding is not possible.  GRUB can only be installed in this setup by "
+"using blocklists.  However, blocklists are UNRELIABLE and their use is "
+"discouraged."
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:436
+msgid "if you really want blocklists, use --force"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:453
+#, c-format
+msgid "attempting to read the core image `%s' from GRUB"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:454
+#, c-format
+msgid "attempting to read the core image `%s' from GRUB again"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:512
+#, c-format
+msgid "cannot read `%s' correctly"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:525
+msgid "no terminator in the core image"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:537
+msgid "failed to read the first sector of the core image"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:544
+msgid "failed to read the rest sectors of the core image"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:606
+#, c-format
+msgid ""
+"Usage: %s [OPTION]... DEVICE\n"
+"\n"
+"Set up images to boot from DEVICE.\n"
+"DEVICE must be a GRUB device (e.g. `(hd0,1)').\n"
+"\n"
+"  -b, --boot-image=FILE   use FILE as the boot image [default=%s]\n"
+"  -c, --core-image=FILE   use FILE as the core image [default=%s]\n"
+"  -d, --directory=DIR     use GRUB files in the directory DIR [default=%s]\n"
+"  -m, --device-map=FILE   use FILE as the device map [default=%s]\n"
+"  -r, --root-device=DEV   use DEV as the root device [default=guessed]\n"
+"  -f, --force             install even if problems are detected\n"
+"  -s, --skip-fs-probe     do not probe for filesystems in DEVICE\n"
+"  -a, --alt               alternative setup mode\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:742
+#, c-format
+msgid "No device is specified.\n"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:748
+#, c-format
+msgid "Unknown extra argument `%s'.\n"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:765
+#, c-format
+msgid "Invalid device `%s'.\n"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:778
+#, c-format
+msgid "invalid root device `%s'"
+msgstr ""
+
+#: util/i386/pc/grub-setup.c:791
+msgid "cannot guess the root device. Specify the option `--root-device'"
+msgstr ""
+
+#: util/efi/grub-mkimage.c:544
+#, c-format
+msgid ""
+"Usage: %s -o FILE [OPTION]... [MODULES]\n"
+"\n"
+"Make a bootable image of GRUB.\n"
+"\n"
+"  -d, --directory=DIR     use images and modules under DIR [default=%s]\n"
+"  -p, --prefix=DIR        set grub_prefix directory [default=%s]\n"
+"  -m, --memdisk=FILE      embed FILE as a memdisk image\n"
+"  -c, --config=FILE       embed FILE as boot config\n"
+"  -o, --output=FILE       output a generated image to FILE\n"
+"  -h, --help              display this message and exit\n"
+"  -V, --version           print version information and exit\n"
+"  -v, --verbose           print verbose messages\n"
+"\n"
+"Report bugs to <%s>.\n"
+msgstr ""
+
+#: util/mkisofs/rock.c:309
+#, c-format
+msgid "symbolic link `%s' too long for one SL System Use Field, splitting"
+msgstr ""
+
+#: util/mkisofs/rock.c:517
+#, c-format
+msgid "Unable to insert transparent compressed file - name conflict\n"
+msgstr ""
+
+#: util/mkisofs/rock.c:591
+msgid "Extension record too long\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:96
+#, c-format
+msgid "A boot catalog exists and appears corrupted.\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:97
+#, c-format
+msgid "Please check the following file: %s.\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:98
+#, c-format
+msgid "This file must be removed before a bootable CD can be done.\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:110
+#, c-format
+msgid "Error creating boot catalog (%s)"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:114
+#, c-format
+msgid "Error writing to boot catalog (%s)"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:144
+#, c-format
+msgid "Boot catalog cannot be found!\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:158
+#, c-format
+msgid "Boot image cannot be found!\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:221
+#, c-format
+msgid ""
+"\n"
+"Size of boot image is %d sectors"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:227
+#, c-format
+msgid "No emulation\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:235
+#, c-format
+msgid "Emulating a 1.44 meg floppy\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:240
+#, c-format
+msgid "Emulating a 2.88 meg floppy\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:245
+#, c-format
+msgid "Emulating a 1.2 meg floppy\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:249
+#, c-format
+msgid ""
+"\n"
+"Error - boot image is not the an allowable size.\n"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:269
+msgid "Error opening boot catalog for update"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:275 util/mkisofs/eltorito.c:277
+msgid "Error writing to boot catalog"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:291
+#, c-format
+msgid "Error opening boot image file `%s' for update"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:299
+#, c-format
+msgid "Odd alignment at non-end-of-file in boot image `%s'"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:311
+#, c-format
+msgid "Boot image file `%s' changed unexpectedly"
+msgstr ""
+
+#: util/mkisofs/eltorito.c:323
+#, c-format
+msgid "Error writing to boot image (%s)"
+msgstr ""
+
+#: util/mkisofs/tree.c:227 util/mkisofs/write.c:568 util/mkisofs/write.c:1040
+msgid "Fatal goof\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:285
+#, c-format
+msgid "Unable to  generate unique  name for file %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:296 util/mkisofs/tree.c:318
+#, c-format
+msgid "Using %s for %s%s%s (%s)\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:442
+#, c-format
+msgid "Fatal error - RR overflow for file %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:450
+#, c-format
+msgid "Unable to sort directory %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:481
+#, c-format
+msgid "Translation table size mismatch %d %d\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:747
+msgid "Unable to locate directory parent\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:797
+#, c-format
+msgid "Scanning %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:812
+#, c-format
+msgid "Unable to open directory %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:857
+#, c-format
+msgid "Ignoring file %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:864
+msgid "Overflow of stat buffer\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:877
+#, c-format
+msgid "Excluded by match: %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:892
+#, c-format
+msgid "Excluded: %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:962
+#, c-format
+msgid "Non-existant or inaccessible: %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:998 util/mkisofs/tree.c:1104
+#, c-format
+msgid "Unable to stat file %s - ignoring and continuing.\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1004
+#, c-format
+msgid "Symlink %s ignored - continuing.\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1029
+#, c-format
+msgid "Already cached directory seen (%s)\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1071
+#, c-format
+msgid "File %s is not readable (%s) - ignoring\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1084
+#, c-format
+msgid "Directory loop - fatal goof (%s %lx %lu).\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1094
+#, c-format
+msgid "Unknown file type %s - ignoring and continuing.\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1180
+#, c-format
+msgid "Hidden from ISO9660 tree: %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1192
+#, c-format
+msgid "Hidden from Joliet tree: %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1601
+#, c-format
+msgid "Directories too deep  %s\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1633
+msgid "Unable to delete non-empty directory\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1656
+msgid "Unable to locate child directory in parent list\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1773
+#, c-format
+msgid "call to search_tree_file with an absolute path, stripping\n"
+msgstr ""
+
+#: util/mkisofs/tree.c:1774
+#, c-format
+msgid "initial path separator. Hope this was intended...\n"
+msgstr ""
+
+#: util/mkisofs/multi.c:161
+msgid "Seek error on old image\n"
+msgstr ""
+
+#: util/mkisofs/multi.c:179 util/mkisofs/multi.c:250
+#, c-format
+msgid "**Bad RR version attribute"
+msgstr ""
+
+#: util/mkisofs/multi.c:546
+#, c-format
+msgid ""
+"Warning: Neither Rock Ridge (-R) nor TRANS.TBL (-T) name translations were "
+"found on previous session. ISO (8.3) file names have been used instead.\n"
+msgstr ""
+
+#: util/mkisofs/multi.c:764
+#, c-format
+msgid "Read error on old image %s\n"
+msgstr ""
+
+#: util/mkisofs/multi.c:1084
+msgid "Special parameters for cdwrite not specified with -C\n"
+msgstr ""
+
+#: util/mkisofs/multi.c:1091
+msgid "Malformed cdwrite parameters\n"
+msgstr ""
+
+#: util/mkisofs/write.c:161
+#, c-format
+msgid "Cannot open `%s'"
+msgstr ""
+
+#: util/mkisofs/write.c:169
+#, c-format
+msgid "cannot fwrite %llu*%llu\n"
+msgstr ""
+
+#: util/mkisofs/write.c:251
+#, c-format
+msgid "cannot open %s\n"
+msgstr ""
+
+#: util/mkisofs/write.c:260
+#, c-format
+msgid "cannot read %llu bytes from %s"
+msgstr ""
+
+#: util/mkisofs/write.c:278
+#, c-format
+msgid "%6.2f%% done, estimate finish %s"
+msgstr ""
+
+#: util/mkisofs/write.c:545
+#, c-format
+msgid "Cache hit for %s%s%s\n"
+msgstr ""
+
+#: util/mkisofs/write.c:899
+#, c-format
+msgid "Unexpected directory length %d %d %s\n"
+msgstr ""
+
+#: util/mkisofs/write.c:911
+#, c-format
+msgid "Continuation entry record length mismatch (%d %d).\n"
+msgstr ""
+
+#: util/mkisofs/write.c:984 util/mkisofs/joliet.c:358
+#, c-format
+msgid "Unable to generate sane path tables - too many directories (%d)\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1020 util/mkisofs/joliet.c:397
+#, c-format
+msgid "Entry %d not in path tables\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1075
+#, c-format
+msgid "Path table lengths do not match %d %d\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1121 util/mkisofs/write.c:1131
+#, c-format
+msgid "Total extents scheduled to be written = %llu\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1148
+#, c-format
+msgid "Total extents actually written = %llu\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1157
+#, c-format
+msgid ""
+"Number of extents written different than what was predicted.  Please fix.\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1158
+#, c-format
+msgid "Predicted = %d, written = %llu\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1161
+#, c-format
+msgid "Total translation table size: %d\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1162
+#, c-format
+msgid "Total rockridge attributes bytes: %d\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1163
+#, c-format
+msgid "Total directory bytes: %d\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1164
+#, c-format
+msgid "Path table size(bytes): %d\n"
+msgstr ""
+
+#: util/mkisofs/write.c:1438
+#, c-format
+msgid "Unable to open %s"
+msgstr ""
+
+#: util/mkisofs/write.c:1441
+#, c-format
+msgid "cannot read %d bytes from %s"
+msgstr ""
+
+#: util/mkisofs/write.c:1444
+#, c-format
+msgid "%s is too big for embed area"
+msgstr ""
+
+#: util/mkisofs/joliet.c:411
+#, c-format
+msgid "Fatal goof - directory has amnesia\n"
+msgstr ""
+
+#: util/mkisofs/joliet.c:477
+#, c-format
+msgid "Joliet path table lengths do not match %d %d\n"
+msgstr ""
+
+#: util/mkisofs/joliet.c:529
+#, c-format
+msgid "Unable to locate relocated directory\n"
+msgstr ""
+
+#: util/mkisofs/joliet.c:604
+#, c-format
+msgid "Fatal goof - unable to find directory location\n"
+msgstr ""
+
+#: util/mkisofs/joliet.c:653
+#, c-format
+msgid "Unexpected joliet directory length %d %d %s\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:377
+#, c-format
+msgid "Using \"%s\"\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:405
+#, c-format
+msgid "%s:%d: name required\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:415
+#, c-format
+msgid "%s:%d: equals sign required\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:449
+#, c-format
+msgid "%s:%d: field name \"%s\" unknown\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:478
+#, c-format
+msgid "Usage: %s [options] file...\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:480
+#, c-format
+msgid "Options:\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:715
+#, c-format
+msgid "-i option no longer supported.\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:728 util/mkisofs/mkisofs.c:734
+msgid "Required boot image pathname missing"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:744
+#, c-format
+msgid "Required boot catalog pathname missing\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:752
+#, c-format
+msgid "Ignoring -no-emul-boot (no-emulation is the default behaviour)\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:761
+#, c-format
+msgid "Abstract filename string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:769
+#, c-format
+msgid "Application-id string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:777
+#, c-format
+msgid "Bibliographic filename string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:785
+#, c-format
+msgid "Copyright filename string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:820
+#, c-format
+msgid "Preparer string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:831
+#, c-format
+msgid "Publisher string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:852
+#, c-format
+msgid "System ID string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:863
+#, c-format
+msgid "Volume ID string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:871
+#, c-format
+msgid "Volume set ID string too long\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:882
+#, c-format
+msgid "Volume set sequence number too big\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:924 util/mkisofs/mkisofs.c:934
+#: util/mkisofs/mkisofs.c:944 util/mkisofs/mkisofs.c:954
+#, c-format
+msgid "date string must be 16 characters.\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:973
+msgid "Warning: getrlimit"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:977
+msgid "Warning: setrlimit"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:993
+#, c-format
+msgid "Multisession usage bug: Must specify -C if -M is used.\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:999
+#, c-format
+msgid ""
+"Warning: -C specified without -M: old session data will not be merged.\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1038
+#, c-format
+msgid "can't open logfile: %s"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1042
+#, c-format
+msgid "re-directing all messages to %s\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1047
+#, c-format
+msgid "can't open logfile: %s\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1088
+#, c-format
+msgid "U"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1088
+#, c-format
+msgid "Unable to open previous session image %s\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1199
+#, c-format
+msgid "Invalid node - %s\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1261
+msgid "Joliet tree sort failed.\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1276
+msgid "Unable to open /dev/null\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1280
+msgid "Unable to open disc image file\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1402
+#, c-format
+msgid "Max brk space used %x\n"
+msgstr ""
+
+#: util/mkisofs/mkisofs.c:1405
+#, c-format
+msgid "%llu extents written (%llu MiB)\n"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1063
+msgid "Possible commands are:"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1067
+msgid "Possible devices are:"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1071
+msgid "Possible files are:"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1075
+msgid "Possible partitions are:"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1079
+msgid "Possible arguments are:"
+msgstr ""
+
+#: menu/normal/menu_entry.c:1083
+msgid "Possible things are:"
+msgstr ""
+
+#: menu/normal/menu_text.c:169
+msgid ""
+"Minimum Emacs-like screen editing is supported. TAB lists completions. Press "
+"F1 to boot, F2=Ctrl-a, F3=Ctrl-e, F4 for a command-line or ESC to discard "
+"edits and return to the GRUB menu."
+msgstr ""
+
+#: menu/normal/menu_text.c:174
+msgid ""
+"Minimum Emacs-like screen editing is supported. TAB lists completions. Press "
+"Ctrl-x to boot, Ctrl-c for a command-line or ESC to discard edits and return "
+"to the GRUB menu."
+msgstr ""
+
+#: menu/normal/menu_text.c:182
+#, c-format
+msgid "Use the %C and %C keys to select which entry is highlighted.\n"
+msgstr ""
+
+#: menu/normal/menu_text.c:199
+msgid ""
+"Press enter to boot the selected OS, 'e' to edit the commands before booting "
+"or 'c' for a command-line. ESC to return previous menu.\n"
+msgstr ""
+
+#: menu/normal/menu_text.c:207
+msgid ""
+"Press enter to boot the selected OS, 'e' to edit the commands before booting "
+"or 'c' for a command-line.\n"
+msgstr ""
+
+#: menu/normal/menu_text.c:359 gfxmenu/gui_progress_bar.c:281
+#, c-format
+msgid "The highlighted entry will be executed automatically in %ds."
+msgstr ""
+
+#: menu/normal/main.c:44
+#, c-format
+msgid "%s  version %s"
+msgstr ""
+
+#: menu/normal/main.c:145
+#, c-format
+msgid ""
+"Minimal BASH-like line editing is supported. For the first word, TAB lists "
+"possible command completions. Anywhere else TAB lists possible device or "
+"file completions. %s"
+msgstr ""
+
+#: menu/normal/main.c:148
+msgid "ESC at any time exits."
+msgstr ""
+
+#: commands/help.c:105 lib/arg.c:112 gnulib/argp-help.c:1637
+msgid "Usage:"
+msgstr ""
+
+#: lib/misc.c:67
+msgid "Filesystem cannot be accessed"
+msgstr ""
+
+#: lib/misc.c:126
+msgid "Unknown filesystem"
+msgstr ""
+
+#: lib/misc.c:128
+msgid "Partition table"
+msgstr ""
+
+#: kern/err.c:135
+#, c-format
+msgid "error: %s.\n"
+msgstr ""
+
+#. TRANSLATORS:  's' stands for seconds.
+#. It's a standalone timeout notification.
+#. Please use the short form in your language.
+#: gfxmenu/gui_progress_bar.c:286
+#, c-format
+msgid "%ds remaining."
+msgstr ""
+
+#. TRANSLATORS:  's' stands for seconds.
+#. It's a standalone timeout notification.
+#. Please use the shortest form available in you language.
+#: gfxmenu/gui_progress_bar.c:291
+#, c-format
+msgid "%ds"
+msgstr ""
+
+#: gnulib/error.c:153 gnulib/argp-help.c:1927
+msgid "Unknown system error"
+msgstr ""
+
+#: gnulib/getopt.c:525 gnulib/getopt.c:541
+#, c-format
+msgid "%s: option '%s' is ambiguous\n"
+msgstr ""
+
+#: gnulib/getopt.c:574 gnulib/getopt.c:578
+#, c-format
+msgid "%s: option '--%s' doesn't allow an argument\n"
+msgstr ""
+
+#: gnulib/getopt.c:587 gnulib/getopt.c:592
+#, c-format
+msgid "%s: option '%c%s' doesn't allow an argument\n"
+msgstr ""
+
+#: gnulib/getopt.c:635 gnulib/getopt.c:654 gnulib/getopt.c:957
+#: gnulib/getopt.c:976
+#, c-format
+msgid "%s: option '%s' requires an argument\n"
+msgstr ""
+
+#: gnulib/getopt.c:692 gnulib/getopt.c:695
+#, c-format
+msgid "%s: unrecognized option '--%s'\n"
+msgstr ""
+
+#: gnulib/getopt.c:703 gnulib/getopt.c:706
+#, c-format
+msgid "%s: unrecognized option '%c%s'\n"
+msgstr ""
+
+#: gnulib/getopt.c:755 gnulib/getopt.c:758
+#, c-format
+msgid "%s: invalid option -- '%c'\n"
+msgstr ""
+
+#: gnulib/getopt.c:808 gnulib/getopt.c:825 gnulib/getopt.c:1028
+#: gnulib/getopt.c:1046
+#, c-format
+msgid "%s: option requires an argument -- '%c'\n"
+msgstr ""
+
+#: gnulib/getopt.c:878 gnulib/getopt.c:894
+#, c-format
+msgid "%s: option '-W %s' is ambiguous\n"
+msgstr ""
+
+#: gnulib/getopt.c:918 gnulib/getopt.c:936
+#, c-format
+msgid "%s: option '-W %s' doesn't allow an argument\n"
+msgstr ""
+
+#: gnulib/argp-help.c:147
+#, c-format
+msgid "ARGP_HELP_FMT: %s value is less than or equal to %s"
+msgstr ""
+
+#: gnulib/argp-help.c:220
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter requires a value"
+msgstr ""
+
+#: gnulib/argp-help.c:226
+#, c-format
+msgid "%.*s: ARGP_HELP_FMT parameter must be positive"
+msgstr ""
+
+#: gnulib/argp-help.c:235
+#, c-format
+msgid "%.*s: Unknown ARGP_HELP_FMT parameter"
+msgstr ""
+
+#: gnulib/argp-help.c:247
+#, c-format
+msgid "Garbage in ARGP_HELP_FMT: %s"
+msgstr ""
+
+#: gnulib/argp-help.c:1244
+msgid ""
+"Mandatory or optional arguments to long options are also mandatory or "
+"optional for any corresponding short options."
+msgstr ""
+
+#: gnulib/argp-help.c:1641
+msgid "  or: "
+msgstr ""
+
+#: gnulib/argp-help.c:1653
+msgid " [OPTION...]"
+msgstr ""
+
+#: gnulib/argp-help.c:1680
+#, c-format
+msgid "Try `%s --help' or `%s --usage' for more information.\n"
+msgstr ""
+
+#: gnulib/argp-help.c:1708
+#, c-format
+msgid "Report bugs to %s.\n"
+msgstr ""
+
+#: gnulib/regcomp.c:132
+msgid "Success"
+msgstr ""
+
+#: gnulib/regcomp.c:135
+msgid "No match"
+msgstr ""
+
+#: gnulib/regcomp.c:138
+msgid "Invalid regular expression"
+msgstr ""
+
+#: gnulib/regcomp.c:141
+msgid "Invalid collation character"
+msgstr ""
+
+#: gnulib/regcomp.c:144
+msgid "Invalid character class name"
+msgstr ""
+
+#: gnulib/regcomp.c:147
+msgid "Trailing backslash"
+msgstr ""
+
+#: gnulib/regcomp.c:150
+msgid "Invalid back reference"
+msgstr ""
+
+#: gnulib/regcomp.c:153
+msgid "Unmatched [ or [^"
+msgstr ""
+
+#: gnulib/regcomp.c:156
+msgid "Unmatched ( or \\("
+msgstr ""
+
+#: gnulib/regcomp.c:159
+msgid "Unmatched \\{"
+msgstr ""
+
+#: gnulib/regcomp.c:162
+msgid "Invalid content of \\{\\}"
+msgstr ""
+
+#: gnulib/regcomp.c:165
+msgid "Invalid range end"
+msgstr ""
+
+#: gnulib/regcomp.c:168
+msgid "Memory exhausted"
+msgstr ""
+
+#: gnulib/regcomp.c:171
+msgid "Invalid preceding regular expression"
+msgstr ""
+
+#: gnulib/regcomp.c:174
+msgid "Premature end of regular expression"
+msgstr ""
+
+#: gnulib/regcomp.c:177
+msgid "Regular expression too big"
+msgstr ""
+
+#: gnulib/regcomp.c:180
+msgid "Unmatched ) or \\)"
+msgstr ""
+
+#: gnulib/regcomp.c:701
+msgid "No previous regular expression"
+msgstr ""
+
+#: gnulib/argp-parse.c:158
+msgid "(PROGRAM ERROR) No version known!?"
+msgstr ""
+
+#: gnulib/argp-parse.c:611
+#, c-format
+msgid "%s: Too many arguments\n"
+msgstr ""
+
+#: util/grub.d/10_hurd.in:79 util/grub.d/10_hurd.in:101
+#, c-format
+msgid "Loading GNU Mach ..."
+msgstr ""
+
+#: util/grub.d/10_hurd.in:85 util/grub.d/10_hurd.in:107
+#, c-format
+msgid "Loading the Hurd ..."
+msgstr ""
+
+#: util/grub.d/10_kfreebsd.in:47
+#, c-format
+msgid "%s, with kFreeBSD %s"
+msgstr ""
+
+#: util/grub.d/10_kfreebsd.in:55
+#, c-format
+msgid "Loading kernel of FreeBSD %s ..."
+msgstr ""
+
+#: util/grub.d/10_linux.in:64
+#, c-format
+msgid "%s, with Linux %s (recovery mode)"
+msgstr ""
+
+#: util/grub.d/10_linux.in:66
+#, c-format
+msgid "%s, with Linux %s"
+msgstr ""
+
+#: util/grub.d/10_linux.in:91
+#, c-format
+msgid "Loading Linux %s ..."
+msgstr ""
+
+#: util/grub.d/10_linux.in:96
+#, c-format
+msgid "Loading initial ramdisk ..."
+msgstr ""
+
+#: util/grub.d/10_netbsd.in:43
+#, c-format
+msgid "%s, with kernel %s (via %s, recovery mode)"
+msgstr ""
+
+#: util/grub.d/10_netbsd.in:45
+#, c-format
+msgid "%s, with kernel %s (via %s)"
+msgstr ""
